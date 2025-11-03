@@ -5,8 +5,8 @@ i = 0
 
 def create_connection():
     client = socket.socket()
-    hostname = '85.192.30.142'
-    port = 25565
+    hostname = '91.189.114.25'
+    port = 80
     try:
         client.connect((hostname, port))
         print('Successful connection to the server')
